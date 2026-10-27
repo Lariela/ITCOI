@@ -3,7 +3,7 @@ from groq import Groq
 
 # Inicializa o cliente da Groq utilizando a variável de ambiente
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-
+#
 # Modelo de linguagem compatível
 MODELO = "openai/gpt-oss-120b"
 
